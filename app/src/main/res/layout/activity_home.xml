@@ -1,7 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
     android:layout_height="fill_parent" tools:context=".Home"
-    android:background="#1189b8">
+    android:background="#1ddaff">
 
 
     <LinearLayout
@@ -25,23 +25,31 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnProm"
-                android:src="@drawable/cosito1"
-                android:background="#1189b8"
+                android:src="@drawable/cosito"
+                android:background="#1ddaff"
                 android:layout_alignTop="@+id/btnCoo"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:maxHeight="150dp"
+                android:maxWidth="150dp"
+                android:scaleType="fitCenter" />
 
             <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnCoo"
-                android:src="@drawable/sujeto1"
-                android:background="#1189b8"
+                android:src="@drawable/sujeto"
+                android:background="#1ddaff"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:maxHeight="150dp"
+                android:maxWidth="150dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -54,35 +62,47 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnFac"
-                android:src="@drawable/face1"
-                android:background="#1189b8"
+                android:src="@drawable/face"
+                android:background="#1ddaff"
                 android:layout_alignTop="@+id/btnCpel"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:maxHeight="150dp"
+                android:maxWidth="150dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true" />
 
             <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnCpel"
-                android:src="@drawable/asd1"
-                android:background="#1189b8"
+                android:src="@drawable/asd"
+                android:background="#1ddaff"
                 android:layout_above="@+id/btnNos"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:maxHeight="150dp"
+                android:maxWidth="150dp" />
         </LinearLayout>
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:id="@+id/btnNos"
-            android:src="@drawable/nosotros1"
-            android:background="#1189b8"
+            android:src="@drawable/nosotros"
+            android:background="#1ddaff"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_gravity="center"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:maxHeight="50dp"
+            android:maxWidth="50dp"
+            android:adjustViewBounds="true" />
 
     </LinearLayout>
 
