@@ -34,6 +34,7 @@ public class Home extends AppCompatActivity implements View.OnClickListener{
         btnCpel=(ImageButton) findViewById(R.id.btnCpel);
         btnCpel.setOnClickListener(this);
 
+        // >:v
     }
 
 
