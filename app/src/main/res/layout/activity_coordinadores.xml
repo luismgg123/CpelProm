@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#487ba9">
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/adView2">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Elija el Curso del Coordinador"
+            android:id="@+id/textView11"
+            android:textColor="#ffffff"
+            android:layout_weight="5"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_horizontal" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnHome"
+            android:src="@drawable/home2"
+            android:background="#487ba9"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp" />
+
+    </LinearLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fragment_listado"
+        android:name="usil.cpel.cpelprom.FragmentLista"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        tools:layout="@layout/layout_elemento_listado" />
+
+
+</LinearLayout>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adUnitId="ca-app-pub-3974179242053365/7534781933"
+        ads:adSize="BANNER"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

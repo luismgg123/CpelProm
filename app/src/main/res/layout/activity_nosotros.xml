@@ -1,0 +1,210 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="usil.cpel.cpelprom.Nosotros"
+    android:background="#487ba9">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btnHome">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout3"
+        android:layout_marginTop="20dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El objetivo de esta aplicación es darle un plus al Programa CPEL,  con la finalidad que el público objetivo al que nos enfocamos,  sienta que cubrimos todos aquellos espacios que ellos requieren,  es decir,  le otorgamos facilidades para que pueda acabar pronto su carrera. CPEL Prom. busca que el alumno ahorre tiempo sacando promedios manualmente y evite equivocarse. Además,  la opción de poder comunicarse directamente con el Coordinador de alguno de sus cursos ante algún problema y/o duda que surja."
+                android:id="@+id/textView54"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:elegantTextHeight="false"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Los colaboradores de esta nueva app que se aplicó  para el curso de E-Marketing fueron:"
+                android:id="@+id/textView55"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desarrolladores:"
+                android:id="@+id/textView39"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Bringas Córdova, Daniela"
+                android:id="@+id/textView40"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-García Gárate, Luis Miguel"
+                android:id="@+id/textView41"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grupo Marketing:"
+                android:id="@+id/textView43"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Casas Girón, Marķa Fernanda       "
+                android:id="@+id/textView46"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#ffffff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Huamán Acosta, Betsabeth     "
+                android:id="@+id/textView47"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#ffffff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Inga Guevara, Adriana"
+                android:id="@+id/textView48"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#ffffff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Romero Carbajal, Samantha  "
+                android:id="@+id/textView51"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#ffffff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Tamariz Ubillus, Lucy"
+                android:id="@+id/textView44"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Verastegui Espíritu, Amn"
+                android:id="@+id/textView52"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#ffffff" />
+        </TableRow>
+    </TableLayout>
+
+
+    </ScrollView>
+    <ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnHome"
+
+        android:src="@drawable/home2"
+    android:background="#487ba9"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CPEL Prom</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_promedios">Promedios</string>
+    <string name="title_activity_virtual_prom">VirtualProm</string>
+    <string name="title_activity_coordinadores">Coordinadores</string>
+    <string name="app_name_detalle">ListaFragment</string>
+    <string name="title_activity_nosotros"> Nosotros</string>
+</resources>
