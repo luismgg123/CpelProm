@@ -3,7 +3,7 @@ package usil.cpel.cpelprom;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.content.res.Resources;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
@@ -22,6 +22,7 @@ public class Home extends AppCompatActivity implements View.OnClickListener{
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_launcher);
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(0xff354a6a));
         setContentView(R.layout.activity_home);
 
         btnProm= (ImageButton)findViewById(R.id.btnProm);
@@ -80,7 +81,7 @@ public class Home extends AppCompatActivity implements View.OnClickListener{
             case R.id.btnNos:
                 AlertDialog alertDialog = new AlertDialog.Builder(this).create();
                 alertDialog.setTitle("Acerca de");
-                alertDialog.setMessage("Diseñado y desarrollado por NHB." +"\n" +"Contacto: luismgg123@hotmail.com" );
+                alertDialog.setMessage("Diseñado y desarrollado por NHB Developers" +"\n" +"Contacto: www.facebook.com/NHB" );
                 alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "OK",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {

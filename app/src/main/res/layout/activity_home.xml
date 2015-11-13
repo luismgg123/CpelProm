@@ -15,19 +15,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:layout_marginBottom="5dp"
-            android:background="#1e447e"
             android:layout_weight="0.5">
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="CPEL"
                 android:id="@+id/textView19"
-                android:textColor="#ffffff"
-                android:layout_weight="5.12"
                 android:textStyle="bold"
-                android:textSize="28dp"
                 android:gravity="center_horizontal"
                 android:textAlignment="center" />
 
