@@ -46,10 +46,6 @@
             android:name=".Coordinadores"
             android:label="@string/title_activity_coordinadores" >
         </activity>
-        <activity
-            android:name=".Nosotros"
-            android:label="@string/title_activity_nosotros" >
-        </activity>
     </application>
 
 </manifest>

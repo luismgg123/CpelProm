@@ -3,12 +3,12 @@
     android:layout_height="wrap_content"
     android:gravity="center|top"
     android:orientation="vertical"
-    android:background="#487ba9">
+    android:background="#eee9e9">
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#325676">
+        android:background="#193a60">
 
         <TextView
             android:id="@+id/textView_superior"
@@ -21,8 +21,10 @@
             android:textColor="#ffffff"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_gravity="center_horizontal|bottom"
-            android:layout_marginBottom="10dp" />
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textAlignment="center" />
     </FrameLayout>
 
     <TableLayout
@@ -41,7 +43,8 @@
                 android:layout_height="wrap_content"
                 android:text="Coordinador: "
                 android:id="@+id/textView3"
-                android:textColor="#ffffff" />
+                android:textColor="#363636"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -49,7 +52,7 @@
                 android:text="New Text"
                 android:id="@+id/textView_inferior"
                 android:layout_marginLeft="5dp"
-                android:textColor="#ffffff" />
+                android:textColor="#363636" />
 
         </TableRow>
 
@@ -63,7 +66,8 @@
                 android:layout_height="wrap_content"
                 android:text="Correo: "
                 android:id="@+id/textView6"
-                android:textColor="#ffffff" />
+                android:textColor="#363636"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -71,7 +75,7 @@
                 android:text="New Text"
                 android:id="@+id/txtcorreo"
                 android:layout_marginLeft="5dp"
-                android:textColor="#ffffff" />
+                android:textColor="#363636" />
         </TableRow>
 
         <TableRow
@@ -84,7 +88,8 @@
                 android:layout_height="wrap_content"
                 android:text="Anexo: "
                 android:id="@+id/textView35"
-                android:textColor="#ffffff" />
+                android:textColor="#363636"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -92,7 +97,7 @@
                 android:text="New Text"
                 android:id="@+id/txtanexo"
                 android:layout_marginLeft="5dp"
-                android:textColor="#ffffff" />
+                android:textColor="#363636" />
         </TableRow>
     </TableLayout>
 
@@ -101,7 +106,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnHome"
         android:layout_marginTop="60dp"
-        android:background="#487ba9"
-        android:src="@drawable/atras" />
+        android:background="@android:color/transparent"
+        android:src="@drawable/atras"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp" />
 
 </LinearLayout>

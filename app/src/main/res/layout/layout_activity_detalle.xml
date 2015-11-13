@@ -2,4 +2,4 @@
     android:id="@+id/framelayout_contenedor_detalle"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#487ba9" />
+    android:background="#eee9e9" />
