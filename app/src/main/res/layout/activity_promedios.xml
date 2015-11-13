@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:id="@+id/scrol"
         android:layout_marginBottom="50dp"
-        android:background="#e1efef">
+        android:background="#cce4ef">
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
         xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
@@ -28,7 +28,7 @@
             android:layout_alignBottom="@+id/table1"
             android:layout_alignRight="@+id/table2"
             android:layout_alignEnd="@+id/table2"
-            android:background="#e1efef"
+            android:background="#cce4ef"
             android:layout_marginBottom="20dp" />
 
         <TableLayout
@@ -48,7 +48,7 @@
                     android:id="@+id/textView42"
                     android:text="CPEL PROMEDIOS"
                     android:textStyle="bold"
-                    android:textColor="#009ACC"
+                    android:textColor="#354a6a"
                     android:textSize="18dp" />
 
             </TableRow>
@@ -80,7 +80,7 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="fill_parent"
-                android:background="#359CFF">
+                android:background="#193a60">
 
                 <TextView
                     android:layout_width="0dp"
@@ -113,7 +113,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#359CFF">
+                android:background="#193a60">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -126,7 +126,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#009ACC">
+                android:background="#3377b1">
 
                 <TextView
                     android:layout_width="0dp"
@@ -163,7 +163,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#009ACC">
+                android:background="#3377b1">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -176,7 +176,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#ccfbff">
+                android:background="#5e0054aa">
 
                 <TextView
                     android:layout_width="0dp"
@@ -184,16 +184,14 @@
                     android:text="     Práctica 1"
                     android:id="@+id/textView8"
                     android:layout_column="0"
-                    android:layout_weight="14"
-                    android:background="#ccfbff" />
+                    android:layout_weight="14" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/textView12"
                     android:layout_column="3"
-                    android:layout_weight="4"
-                    android:background="#ccfbff" />
+                    android:layout_weight="4" />
 
                 <EditText
                     android:layout_width="0dp"
@@ -212,7 +210,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#ccfbff">
+                android:background="#5e0054aa">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -225,7 +223,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#ccfbff">
+                android:background="#5e0054aa">
 
                 <TextView
                     android:layout_width="0dp"
@@ -258,7 +256,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#ccfbff">
+                android:background="#5e0054aa">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -271,7 +269,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#ccfbff">
+                android:background="#5e0054aa">
 
                 <TextView
                     android:layout_width="0dp"
@@ -304,7 +302,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#ccfbff">
+                android:background="#5e0054aa">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -317,7 +315,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#009ACC">
+                android:background="#193a60">
 
                 <TextView
                     android:layout_width="0dp"
@@ -352,7 +350,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#009ACC">
+                android:background="#193a60">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -365,7 +363,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#ccfbff">
+                android:background="#5e0054aa">
 
                 <TextView
                     android:layout_width="0dp"
@@ -373,8 +371,7 @@
                     android:text="     Tarea 1"
                     android:id="@+id/textView24"
                     android:layout_column="0"
-                    android:layout_weight="14"
-                    android:background="#ccfbff" />
+                    android:layout_weight="14" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -382,8 +379,7 @@
                     android:text="33.33%"
                     android:id="@+id/textView36"
                     android:layout_column="3"
-                    android:layout_weight="4"
-                    android:background="#ccfbff" />
+                    android:layout_weight="4" />
 
                 <EditText
                     android:layout_width="0dp"
@@ -401,7 +397,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#ccfbff">
+                android:background="#5e0054aa">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -414,7 +410,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#ccfbff">
+                android:background="#5e0054aa">
 
                 <TextView
                     android:layout_width="0dp"
@@ -448,7 +444,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#ccfbff">
+                android:background="#5e0054aa">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -461,7 +457,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#ccfbff">
+                android:background="#5e0054aa">
 
                 <TextView
                     android:layout_width="0dp"
@@ -495,7 +491,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#ccfbff">
+                android:background="#5e0054aa">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -508,7 +504,7 @@
             <TableRow
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#359CFF">
+                android:background="#193a60">
 
                 <TextView
                     android:layout_width="0dp"
@@ -573,7 +569,7 @@
                     android:id="@+id/btnCalProm"
                     android:layout_column="16"
                     android:src="@drawable/prom1"
-                    android:background="#e1efef"
+                    android:background="#cce4ef"
                     android:scaleType="fitCenter"
                     android:maxHeight="90dp"
                     android:maxWidth="100dp"
@@ -634,7 +630,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/btnCalFin"
                     android:src="@drawable/calcu1"
-                    android:background="#e1efef"
+                    android:background="#cce4ef"
                     android:layout_gravity="center_vertical"
                     android:adjustViewBounds="true"
                     android:scaleType="fitCenter"
