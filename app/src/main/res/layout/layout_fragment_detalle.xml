@@ -21,7 +21,8 @@
             android:layout_marginRight="16dp"
             android:layout_gravity="center"
             android:textStyle="bold"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
     </FrameLayout>
 
     <TableLayout
@@ -104,8 +105,13 @@
         android:id="@+id/btnHome"
         android:layout_marginTop="60dp"
         android:background="@android:color/transparent"
-        android:src="@drawable/atras"
+        android:src="@drawable/back2"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="5dp" />
+        android:layout_marginBottom="5dp"
+        android:scaleType="fitCenter"
+        android:maxHeight="50dp"
+        android:maxWidth="50dp"
+        android:longClickable="false"
+        android:adjustViewBounds="true" />
 
 </LinearLayout>
