@@ -35,10 +35,14 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/btnHome"
-            android:src="@drawable/home2"
+            android:src="@drawable/home3"
             android:background="@android:color/transparent"
             android:layout_weight="1"
-            android:layout_marginRight="5dp" />
+            android:layout_marginRight="5dp"
+            android:scaleType="fitCenter"
+            android:maxHeight="50dp"
+            android:maxWidth="50dp"
+            android:adjustViewBounds="true" />
 
     </LinearLayout>
 
