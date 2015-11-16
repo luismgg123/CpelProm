@@ -76,15 +76,24 @@ public class Home extends AppCompatActivity implements View.OnClickListener{
                 Uri webpage = Uri.parse("https://m.facebook.com/usil.cpel/");
                 Intent webIntent = new Intent(Intent.ACTION_VIEW, webpage);
                 startActivity(webIntent);
-                finish();
+
                 break;
             case R.id.btnNos:
                 AlertDialog alertDialog = new AlertDialog.Builder(this).create();
                 alertDialog.setTitle("Acerca de");
-                alertDialog.setMessage("Diseñado y desarrollado por NHB Developers" +"\n" +"Contacto: www.facebook.com/NHB" );
+                alertDialog.setMessage("Diseñado y desarrollado por NHB Developers" + "\n" + "Contacto: www.facebook.com/NHB-Developers");
                 alertDialog.setButton(AlertDialog.BUTTON_POSITIVE, "OK",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        });
+                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "Visítanos",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                Uri facebook = Uri.parse("https://www.facebook.com/NHB-Developers-432692060259074");
+                                Intent face = new Intent(Intent.ACTION_VIEW, facebook);
+                                startActivity(face);
                                 dialog.dismiss();
                             }
                         });
@@ -95,7 +104,7 @@ public class Home extends AppCompatActivity implements View.OnClickListener{
                 Uri webp = Uri.parse("http://www.usil.edu.pe/cpel/");
                 Intent webI = new Intent(Intent.ACTION_VIEW, webp);
                 startActivity(webI);
-                finish();
+
                 break;
 
         }
